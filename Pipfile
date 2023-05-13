@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+music21 = "*"
+pandas = "*"
+torch = "*"
+keras = "*"
+tensorflow = "*"
+keras-self-attention = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
